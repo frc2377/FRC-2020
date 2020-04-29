@@ -1,0 +1,57 @@
+Lower Cannon
+
+Invert Motor: False
+Invert Sensor: True
+
+    Lower Cannon (Device ID 1)   |   CAN ID is 1
+Device enabled
+Motor Type: Brushed
+Mode:0:PercentOutput | Output:89.93% [11.01 V]
+Motor Leads: M+: 11.01 V  M-: 0 V
+Coast during neutral
+VCompEn:F CurrLimited:F
+
+PID0 (primary)
+  Feedback: Quad/MagEnc(rel)
+  Pos: 4136774u   |   Vel: 54264u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+PID1 (aux)
+  Feedback: Quad/MagEnc(rel)
+  Pos: -4115636u   |   Vel: -54248u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+Quad/MagEnc(rel)
+  Pos: -4115093u   |   Vel: -54312u/100ms
+  Pins: A: 1   |   B: 1   |   Idx: 1   |    IdxEdges:1
+
+Analog: Pos: 87u   |   Vel: 0u/100ms   |   ADC:87   |   0.3 V
+
+PulseWidth/MagEnc(abs)
+  Pos: -1768053u   |   Vel: 43976u/100ms
+  Period: 4167.8 us
+  Velocity(if Tachometer): 24568 u/100ms | 14395.00 RPM
+
+Limit Switches
+  Forward:Open
+  Reverse:Open
+
+Auto Zero Position Feature are disabled
+
+        (Fault)         (Now)   (Sticky)
+      Under Vbat :     0          1
+Sens Out Of Phase:     0          1
+
+I-Supply: 5.25A    |    Bus: 12.25V    |    Temp: 30C
+
+Configurations
+  Nominal Output: [0.00, 0.00]   |   Peak Output: [-1.00, 1.00]
+
+FRC Locked:1
+
+"Light Device LED" clears sticky faults.
+
+Build:Feb 19 2020 03:04:19
+Press "Refresh" to close.

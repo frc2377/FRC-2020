@@ -1,0 +1,57 @@
+Upper Cannon
+
+Invert Motor: True
+Invert Sensor: True
+
+    Upper Cannon (Device ID 20)   |   CAN ID is 20
+Device enabled
+Motor Type: Brushed
+Mode:0:PercentOutput | Output:89.93% [11.10 V]
+Motor Leads (Inverted): M+: 0 V  M-: 11.10V
+Coast during neutral
+VCompEn:F CurrLimited:F
+
+PID0 (primary)
+  Feedback: Quad/MagEnc(rel)
+  Pos: 1487472u   |   Vel: 36648u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+PID1 (aux)
+  Feedback: Quad/MagEnc(rel)
+  Pos: 1451862u   |   Vel: 36664u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+Quad/MagEnc(rel)
+  Pos: 1451134u   |   Vel: 36664u/100ms
+  Pins: A: 0   |   B: 1   |   Idx: 1   |    IdxEdges:3
+
+Analog: Pos: 130u   |   Vel: 0u/100ms   |   ADC:130   |   0.4 V
+
+PulseWidth/MagEnc(abs)
+  Pos: 1451876u   |   Vel: 36352u/100ms
+  Period: 4128.8 us
+  Velocity(if Tachometer): 24801 u/100ms | 14532.00 RPM
+
+Limit Switches
+  Forward:Open
+  Reverse:Open
+
+Auto Zero Position Feature are disabled
+
+        (Fault)         (Now)   (Sticky)
+      Under Vbat :     0          1
+Sens Out Of Phase:     0          1
+
+I-Supply: 3.75A    |    Bus: 12.34V    |    Temp: 28C
+
+Configurations
+  Nominal Output: [0.00, 0.00]   |   Peak Output: [-1.00, 1.00]
+
+FRC Locked:1
+
+"Light Device LED" clears sticky faults.
+
+Build:Feb 19 2020 03:04:19
+Press "Refresh" to close.

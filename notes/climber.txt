@@ -1,0 +1,213 @@
+Front: F T
+Rear: T T
+
+Start:
+
+    Front Climber (Device ID 2)   |   CAN ID is 2
+Device NOT ENABLED!
+Motor Type: Brushed
+Mode:0:PercentOutput | Output:0.00% [0.00 V]
+Motor Leads: M+: 0 V    M-: 0 V
+Brake during neutral
+VCompEn:F CurrLimited:F
+
+PID0 (primary)
+  Feedback: Quad/MagEnc(rel)
+  Pos: 0u   |   Vel: 0u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+PID1 (aux)
+  Feedback: Quad/MagEnc(rel)
+  Pos: 0u   |   Vel: 0u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+Quad/MagEnc(rel)
+  Pos: 0u   |   Vel: 0u/100ms
+  Pins: A: 1   |   B: 1   |   Idx: 0   |    IdxEdges:3
+
+Analog: Pos: 106u   |   Vel: 0u/100ms   |   ADC:106   |   0.3 V
+
+PulseWidth/MagEnc(abs)
+  Pos: 194u   |   Vel: 6u/100ms
+  Period: 4134.3 us
+  Velocity(if Tachometer): 24767 u/100ms | 14512.00 RPM
+
+Limit Switches
+  Forward:Open
+  Reverse:Open
+
+Auto Zero Position Feature are disabled
+
+        (Fault)         (Now)   (Sticky)
+   Fwd Soft Limit:    0          1
+   Rev Soft Limit:     0          1
+
+I-Supply: 0.13A    |    Bus: 12.55V    |    Temp: 28C
+
+Configurations
+  Nominal Output: [0.00, 0.00]   |   Peak Output: [-1.00, 1.00]
+
+FRC Locked:1
+
+"Light Device LED" clears sticky faults.
+
+Build:Feb 19 2020 03:04:51
+Press "Refresh" to close.
+
+    Rear Climber (Device ID 3)   |   CAN ID is 3
+Device NOT ENABLED!
+Motor Type: Brushed
+Mode:0:PercentOutput | Output:0.00% [0.00 V]
+Motor Leads: M+: 0 V    M-: 0 V
+Brake during neutral
+VCompEn:F CurrLimited:F
+
+PID0 (primary)
+  Feedback: Quad/MagEnc(rel)
+  Pos: 0u   |   Vel: 0u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+PID1 (aux)
+  Feedback: Quad/MagEnc(rel)
+  Pos: 0u   |   Vel: 0u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+Quad/MagEnc(rel)
+  Pos: 0u   |   Vel: 0u/100ms
+  Pins: A: 1   |   B: 0   |   Idx: 0   |    IdxEdges:3
+
+Analog: Pos: 106u   |   Vel: 1u/100ms   |   ADC:106   |   0.3 V
+
+PulseWidth/MagEnc(abs)
+  Pos: 2724u   |   Vel: 4u/100ms
+  Period: 4025.3 us
+  Velocity(if Tachometer): 25438 u/100ms | 14905.00 RPM
+
+Limit Switches
+  Forward:Open
+  Reverse:Open
+
+Auto Zero Position Feature are disabled
+
+I-Supply: 0.13A    |    Bus: 12.55V    |    Temp: 28C
+
+Configurations
+  Nominal Output: [0.00, 0.00]   |   Peak Output: [-1.00, 1.00]
+
+FRC Locked:1
+
+"Light Device LED" clears sticky faults.
+
+Build:Feb 19 2020 03:04:51
+Press "Refresh" to close.
+
+
+Extended
+
+    Front Climber (Device ID 2)   |   CAN ID is 2
+Device NOT ENABLED!
+Motor Type: Brushed
+Mode:0:PercentOutput | Output:0.00% [0.00 V]
+Motor Leads: M+: 0 V    M-: 0 V
+Brake during neutral
+VCompEn:F CurrLimited:F
+
+PID0 (primary)
+  Feedback: Quad/MagEnc(rel)
+  Pos: 141178u   |   Vel: 0u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+PID1 (aux)
+  Feedback: Quad/MagEnc(rel)
+  Pos: -141178u   |   Vel: 0u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+Quad/MagEnc(rel)
+  Pos: -141178u   |   Vel: 0u/100ms
+  Pins: A: 0   |   B: 0   |   Idx: 1   |    IdxEdges:3
+
+Analog: Pos: 106u   |   Vel: -2u/100ms   |   ADC:106   |   0.3 V
+
+PulseWidth/MagEnc(abs)
+  Pos: -140987u   |   Vel: 2u/100ms
+  Period: 4133.3 us
+  Velocity(if Tachometer): 24773 u/100ms | 14515.00 RPM
+
+Limit Switches
+  Forward:Open
+  Reverse:Open
+
+Auto Zero Position Feature are disabled
+
+        (Fault)         (Now)   (Sticky)
+   Fwd Soft Limit:    0          1
+   Rev Soft Limit:     0          1
+
+I-Supply: 0.13A    |    Bus: 12.50V    |    Temp: 30C
+
+Configurations
+  Nominal Output: [0.00, 0.00]   |   Peak Output: [-1.00, 1.00]
+
+FRC Locked:1
+
+"Light Device LED" clears sticky faults.
+
+Build:Feb 19 2020 03:04:51
+Press "Refresh" to close.
+
+
+
+    Rear Climber (Device ID 3)   |   CAN ID is 3
+Device NOT ENABLED!
+Motor Type: Brushed
+Mode:0:PercentOutput | Output:0.00% [0.00 V]
+Motor Leads (Inverted): M+: 0 V    M-: 0 V
+Brake during neutral
+VCompEn:F CurrLimited:F
+
+PID0 (primary)
+  Feedback: Quad/MagEnc(rel)
+  Pos: -595666u   |   Vel: 0u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+PID1 (aux)
+  Feedback: Quad/MagEnc(rel)
+  Pos: -595666u   |   Vel: 0u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+Quad/MagEnc(rel)
+  Pos: -595666u   |   Vel: 0u/100ms
+  Pins: A: 0   |   B: 1   |   Idx: 0   |    IdxEdges:3
+
+Analog: Pos: 105u   |   Vel: 0u/100ms   |   ADC:105   |   0.3 V
+
+PulseWidth/MagEnc(abs)
+  Pos: -592942u   |   Vel: 0u/100ms
+  Period: 4026.4 us
+  Velocity(if Tachometer): 25432 u/100ms | 14901.00 RPM
+
+Limit Switches
+  Forward:Open
+  Reverse:Open
+
+Auto Zero Position Feature are disabled
+
+I-Supply: 0.13A    |    Bus: 12.55V    |    Temp: 28C
+
+Configurations
+  Nominal Output: [0.00, 0.00]   |   Peak Output: [-1.00, 1.00]
+
+FRC Locked:1
+
+"Light Device LED" clears sticky faults.
+
+Build:Feb 19 2020 03:04:51
+Press "Refresh" to close.

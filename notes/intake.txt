@@ -1,0 +1,57 @@
+Intake (updated 3/8/20)
+
+Invert Motor: False
+Invert Phase: False
+
+        Intake (Device ID 11)   |   CAN ID is 11
+    Device enabled
+    Motor Type: Brushed
+    Mode:0:PercentOutput | Output:100.00% [11.50 V]
+    Motor Leads: M+: 11.50 V  M-: 0 V
+    Coast during neutral
+    VCompEn:F CurrLimited:F
+
+    PID0 (primary)
+      Feedback: Quad/MagEnc(rel)
+      Pos: 2921379u   |   Vel: 92344u/100ms
+      Slot Select: 1
+      Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+    PID1 (aux)
+      Feedback: Quad/MagEnc(rel)
+      Pos: 2850369u   |   Vel: 92640u/100ms
+      Slot Select: 0
+      Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+    Quad/MagEnc(rel)
+      Pos: 2847592u   |   Vel: 92608u/100ms
+      Pins: A: 0   |   B: 1   |   Idx: 1   |    IdxEdges:2
+
+    Analog: Pos: 116u   |   Vel: 64u/100ms   |   ADC:116   |   0.4 V
+
+    PulseWidth/MagEnc(abs)
+      Pos: -7985u   |   Vel: -10061u/100ms
+      Period: 3994.4 us
+      Velocity(if Tachometer): 25636 u/100ms | 15021.00 RPM
+
+    Limit Switches
+      Forward:Open
+      Reverse:Open
+
+    Auto Zero Position Feature are disabled
+
+            (Fault)         (Now)   (Sticky)
+        Reset Dur En :     0          1
+    Sens Out Of Phase:     0          1
+
+    I-Supply: 19.87A    |    Bus: 11.50V    |    Temp: 28C
+
+    Configurations
+      Nominal Output: [0.00, 0.00]   |   Peak Output: [-1.00, 1.00]
+
+    FRC Locked:1
+
+    "Light Device LED" clears sticky faults.
+
+    Build:Feb 19 2020 03:04:51
+    Press "Refresh" to close.

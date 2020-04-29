@@ -1,0 +1,58 @@
+Hopup
+
+Invert Motor: True
+Invert Phase: False
+
+    Hop Up (Device ID 4)   |   CAN ID is 4
+Device enabled
+Motor Type: Brushed
+Mode:0:PercentOutput | Output:89.93% [11.01 V]
+Motor Leads (Inverted): M+: 0 V  M-: 11.01V
+Coast during neutral
+VCompEn:F CurrLimited:F
+
+PID0 (primary)
+  Feedback: Quad/MagEnc(rel)
+  Pos: 517067u   |   Vel: 7213u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+PID1 (aux)
+  Feedback: Quad/MagEnc(rel)
+  Pos: -511376u   |   Vel: -7230u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+Quad/MagEnc(rel)
+  Pos: -511205u   |   Vel: -7229u/100ms
+  Pins: A: 1   |   B: 1   |   Idx: 1   |    IdxEdges:1
+
+Analog: Pos: 125u   |   Vel: 112u/100ms   |   ADC:125   |   0.4 V
+
+PulseWidth/MagEnc(abs)
+  Pos: -508675u   |   Vel: -7248u/100ms
+  Period: 4116.5 us
+  Velocity(if Tachometer): 24875 u/100ms | 14575.00 RPM
+
+Limit Switches
+  Forward:Open
+  Reverse:Open
+
+Auto Zero Position Feature are disabled
+
+        (Fault)         (Now)   (Sticky)
+      Under Vbat :     0          1
+    Reset Dur En :     0          1
+Sens Out Of Phase:     0          1
+
+I-Supply: 7.87A    |    Bus: 12.25V    |    Temp: 30C
+
+Configurations
+  Nominal Output: [0.00, 0.00]   |   Peak Output: [-1.00, 1.00]
+
+FRC Locked:1
+
+"Light Device LED" clears sticky faults.
+
+Build:Feb 19 2020 03:04:19
+Press "Refresh" to close.

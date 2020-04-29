@@ -1,0 +1,56 @@
+Conveyor (Updated 3/7/20)
+
+Invert Motor: False
+Invert Sensor: True
+
+        Conveyor (Device ID 5)   |   CAN ID is 5
+    Device enabled
+    Motor Type: Brushed
+    Mode:0:PercentOutput | Output:100.00% [11.19 V]
+    Motor Leads: M+: 11.19 V  M-: 0 V
+    Coast during neutral
+    VCompEn:F CurrLimited:F
+
+    PID0 (primary)
+      Feedback: Quad/MagEnc(rel)
+      Pos: 26472872u   |   Vel: 8032u/100ms
+      Slot Select: 0
+      Err: 0 u   |   iacc: -12306 u-ms   |   derr: 0 u/ms
+
+    PID1 (aux)
+      Feedback: Quad/MagEnc(rel)
+      Pos: -26461792u   |   Vel: -8001u/100ms
+      Slot Select: 0
+      Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+    Quad/MagEnc(rel)
+      Pos: -26461720u   |   Vel: -7999u/100ms
+      Pins: A: 0   |   B: 0   |   Idx: 1   |    IdxEdges:1
+
+    Analog: Pos: 132u   |   Vel: -87u/100ms   |   ADC:132   |   0.4 V
+
+    PulseWidth/MagEnc(abs)
+      Pos: -26460128u   |   Vel: -8001u/100ms
+      Period: 4015.9 us
+      Velocity(if Tachometer): 25498 u/100ms | 14940.00 RPM
+
+    Limit Switches
+      Forward:Open
+      Reverse:Open
+
+    Auto Zero Position Feature are disabled
+
+            (Fault)         (Now)   (Sticky)
+    Sens Out Of Phase:     0          1
+
+    I-Supply: 17.37A    |    Bus: 11.19V    |    Temp: 32C
+
+    Configurations
+      Nominal Output: [0.00, 0.00]   |   Peak Output: [-1.00, 1.00]
+
+    FRC Locked:1
+
+    "Light Device LED" clears sticky faults.
+
+    Build:Feb 19 2020 03:04:19
+    Press "Refresh" to close.

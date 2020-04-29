@@ -1,0 +1,57 @@
+Control Panel
+
+Invert Motor: True
+Invert Sensor: True
+
+    Control Panel (Device ID 7)   |   CAN ID is 7
+Device enabled
+Motor Type: Brushed
+Mode:0:PercentOutput | Output:89.93% [11.10 V]
+Motor Leads (Inverted): M+: 0 V  M-: 11.10V
+Coast during neutral
+VCompEn:F CurrLimited:F
+
+PID0 (primary)
+  Feedback: Quad/MagEnc(rel)
+  Pos: 517587u   |   Vel: 21366u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+PID1 (aux)
+  Feedback: Quad/MagEnc(rel)
+  Pos: 513764u   |   Vel: 21377u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+Quad/MagEnc(rel)
+  Pos: 513572u   |   Vel: 21379u/100ms
+  Pins: A: 0   |   B: 0   |   Idx: 0   |    IdxEdges:3
+
+Analog: Pos: 93u   |   Vel: 131u/100ms   |   ADC:93   |   0.3 V
+
+PulseWidth/MagEnc(abs)
+  Pos: 514566u   |   Vel: 21198u/100ms
+  Period: 3962.4 us
+  Velocity(if Tachometer): 25843 u/100ms | 15142.00 RPM
+
+Limit Switches
+  Forward:Open
+  Reverse:Open
+
+Auto Zero Position Feature are disabled
+
+        (Fault)         (Now)   (Sticky)
+      Under Vbat :     0          1
+Sens Out Of Phase:     0          1
+
+I-Supply: 2.75A    |    Bus: 12.34V    |    Temp: 30C
+
+Configurations
+  Nominal Output: [0.00, 0.00]   |   Peak Output: [-1.00, 1.00]
+
+FRC Locked:1
+
+"Light Device LED" clears sticky faults.
+
+Build:Feb 19 2020 03:04:19
+Press "Refresh" to close.
